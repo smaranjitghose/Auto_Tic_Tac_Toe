@@ -8,3 +8,10 @@ But, too lazy to find a partner?
 Well a simple algorithm known as min max, the beauty of React and some JS has got you covered!
 <p align = "center"><img src = "https://media.giphy.com/media/d9BtFCitz3kljrLumQ/giphy.gif" width = 40%></p>
 
+<h2 align="center">Wanna Give this a try?</h2>
+
+- Go to [] and start playing!
+
+<h2 align="center">Wondering how this works it!</h2>
+<p align = "center"><img src = "https://media.giphy.com/media/JRUeMkrHnlIf2oE3Hs/giphy.gif" width = 35%></p>
+
