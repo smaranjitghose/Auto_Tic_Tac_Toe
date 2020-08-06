@@ -13,5 +13,9 @@ Well a simple algorithm known as min max, the beauty of React and some JS has go
 - Go to [] and start playing!
 
 <h2 align="center">Wondering how this works it!</h2>
-<p align = "center"><img src = "https://media.giphy.com/media/JRUeMkrHnlIf2oE3Hs/giphy.gif" width = 35%></p>
+<p align = "center"><img src = "https://media.giphy.com/media/JRUeMkrHnlIf2oE3Hs/giphy.gif" width = 40%></p>
+- Clone this [repository](https://github.com/smaranjitghose/Auto_Tic_Tac_Toe)
+- Move into the directory. ``cd Auto_Tic_Tac_Toe``
+- Getting our dependencies, ``npm install``
+
 
