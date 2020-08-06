@@ -1,0 +1,15 @@
+node_modules/
+test/
+
+# ignore gulp-gh-pages cache
+.publish
+
+# ignore compiled lib files
+lib
+dist
+
+# Logs
+logs
+*.log
+npm-debug.log*
+

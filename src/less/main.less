@@ -1,0 +1,154 @@
+@color-material-grey: #757575;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+// set to full page unscrollable
+
+html,
+body {
+	height: 100%;
+	font-family: "Montserrat", sans-serif;
+}
+.dark-mode {
+	background-color: #303030;
+	color: white;
+}
+// game components
+
+.game-grid {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.game-row {
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+}
+
+.game-cell {
+	width: 25vw;
+	height: 25vw;
+	max-width: 100px;
+	max-height: 100px;
+	margin: 15px;
+	transition: background-color 0.5s ease;
+	justify-content: center;
+}
+
+.game-cell-label {
+	width: 100%;
+	font-size: 1.7em;
+	font-weight: 600;
+	color: @color-material-grey;
+}
+
+.game-cell-disabled {
+	opacity: 0.5;
+}
+
+.game-cell-winning {
+	background-color: #ff8a80;
+}
+
+.game-button-group {
+	margin-top: 2%;
+	margin-bottom: 2%;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+
+	.game-button {
+		padding-left: 25px;
+		margin-right: 10px;
+		padding-right: 25px;
+	}
+}
+.game-button-group-dark {
+	color: #424242;
+}
+.game-winner-text {
+	font-size: 2em;
+	letter-spacing: 10px;
+}
+
+.game-footer {
+	padding-top: 20px;
+}
+
+// typography
+
+.page-text {
+	font-weight: 800;
+	text-transform: uppercase;
+}
+
+.page-title {
+	letter-spacing: 20px;
+}
+
+// helpers
+
+.tall-container-wrapper {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+}
+
+.tall-container-shrink {
+	flex-grow: 0;
+	flex-basis: auto;
+}
+
+.tall-container-grow {
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: auto;
+}
+
+// mobile responsive
+
+@media (max-height: 768px) {
+	.game-cell {
+		margin: 10px;
+	}
+
+	.game-winner-text {
+		font-size: 20px;
+	}
+
+	.game-footer {
+		padding-top: 10px;
+	}
+
+	.page-title {
+		font-size: 30px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+
+	.github-corner {
+		width: 50px;
+		height: 50px;
+	}
+}
+
+// animations
+
+.animate-enter {
+	opacity: 0.01;
+}
+
+.animate-enter.animate-enter-active {
+	opacity: 1;
+	transition: opacity 500ms ease-in;
+}
+
+.animate-leave {
+	opacity: 1;
+}
+
+.animate-leave.animate-leave-active {
+	opacity: 0.01;
+	transition: opacity 300ms ease-in;
+}
