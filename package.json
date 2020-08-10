@@ -11,16 +11,17 @@
     "build": "babel src -d lib",
     "vs-ai": "node lib/js/game/implementation/vsAi.js",
     "two-player": "node lib/js/game/implementation/twoPlayer.js",
-    "watch": "babel --watch src -d lib",
-    "deploy": "gh-pages -d build"
+    "watch": "babel --watch src -d lib"
   },
   "devDependencies": {
     "async": "^1.5.0",
     "babel-cli": "^6.3.17",
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/register": "7.10.5",
     "babel-preset-es2015": "^6.3.13",
     "babel-preset-react": "^6.3.13",
     "babel-preset-stage-0": "^6.3.13",
-    "babel-register": "^6.3.13",
     "babelify": "^7.2.0",
     "browser-sync": "^2.10.1",
     "browserify": "^12.0.1",
