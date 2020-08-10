@@ -3,16 +3,17 @@
   "version": "1.0.0",
   "description": "A Tic-Tac-Toe game with React and an unbeatable AI.",
   "main": "./src/js/game/index.js",
+  "homepage": "https://github.com/smaranjitghose.github.io/Auto_Tic_Tac_Toe",
+  "private": true,
+  "author": "Smaranjit Ghose, Anush Bhatia",
+  "license": "MIT",
   "scripts": {
     "build": "babel src -d lib",
     "vs-ai": "node lib/js/game/implementation/vsAi.js",
     "two-player": "node lib/js/game/implementation/twoPlayer.js",
-    "test": "mocha --compilers js:babel-register",
-    "watch": "babel --watch src -d lib"
+    "watch": "babel --watch src -d lib",
+    "deploy": "gh-pages -d build"
   },
-  "private": true,
-  "author": "Smaranjit Ghose, Anush Bhatia",
-  "license": "MIT",
   "devDependencies": {
     "async": "^1.5.0",
     "babel-cli": "^6.3.17",
@@ -25,6 +26,7 @@
     "browserify": "^12.0.1",
     "chai": "^3.4.1",
     "del": "^2.2.0",
+    "gh-pages": "^3.1.0",
     "gulp": "^3.9.0",
     "gulp-autoprefixer": "^3.1.0",
     "gulp-babel": "^6.1.1",
@@ -73,6 +75,5 @@
   ],
   "bugs": {
     "url": "https://github.com/smaranjitghose/Auto_Tic_Tac_Toe/issues"
-  },
-  "homepage": "https://github.com/smaranjitghose/Auto_Tic_Tac_Toe#readme"
+  }
 }
