@@ -1,5 +1,5 @@
 {
-  "name": "Auto_Tic_Tack_Toe",
+  "name": "Auto_Tic_Tac_Toe",
   "version": "1.0.0",
   "description": "A Tic-Tac-Toe game with React and an unbeatable AI.",
   "main": "./src/js/game/index.js",
@@ -11,7 +11,7 @@
     "watch": "babel --watch src -d lib"
   },
   "private": true,
-  "author": "Anush Bhatia",
+  "author": "Smaranjit Ghose, Anush Bhatia",
   "license": "MIT",
   "devDependencies": {
     "async": "^1.5.0",
@@ -33,7 +33,6 @@
     "gulp-if": "^2.0.0",
     "gulp-less": "^3.0.5",
     "gulp-mocha": "^2.2.0",
-    "gulp-real-favicon": "^0.3.2",
     "gulp-sourcemaps": "^1.6.0",
     "gulp-uglify": "^1.5.1",
     "gulp-useref": "^3.0.4",
@@ -63,7 +62,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/smaranjitghose/Auto_Tic_Tac_Toe"
+    "url": "git+https://github.com/smaranjitghose/Auto_Tic_Tac_Toe.git"
   },
   "keywords": [
     "es6",
@@ -73,7 +72,7 @@
     "minimax"
   ],
   "bugs": {
-    "url": "https://github.com/smaranjitghose/Auto_Tic_Tac_Toe"
+    "url": "https://github.com/smaranjitghose/Auto_Tic_Tac_Toe/issues"
   },
-  "homepage": "https://github.com/smaranjitghose/Auto_Tic_Tac_Toe"
+  "homepage": "https://github.com/smaranjitghose/Auto_Tic_Tac_Toe/#readme"
 }
